@@ -1,0 +1,15 @@
+{
+    "concurrency": 1,
+    "selectorTimeout": 10000,
+    "assertionTimeout": 25000,
+    "pageloadTimeout": 25000,
+    "pageRequestTimeout": 10000,
+    "speed":0.4,
+    "skipJsErrors": true,
+    "screenshots": {
+        "takeOnFails": true,
+        "path": "./screenshots",
+        "fullPage": true,
+        "pathPattern": "${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png"
+    }
+}

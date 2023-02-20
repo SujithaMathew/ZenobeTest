@@ -1,0 +1,20 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:chrome": "testcafe chrome ./tests -s takeOnFails=true"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^2.8.4",
+    "testcafe": "^2.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-plugin-testcafe": "^0.2.1"
+  }
+}
