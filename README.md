@@ -13,4 +13,4 @@ Steps to run the test:
 
 Note: 1.You can see the testcafe version in package.json file -- "testcafe": "^2.2.0" 2 .testcaferc.json file is used commonly for maintaining implicit wait, explicit wait, page load..etc
 
-I have explored Playwright tool and It looks like similar to Testcafe.
+I have explored Playwright tool and It looks similar to Testcafe.
