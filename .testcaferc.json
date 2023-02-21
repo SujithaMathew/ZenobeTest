@@ -10,6 +10,7 @@
         "takeOnFails": true,
         "path": "./screenshots",
         "fullPage": true,
-        "pathPattern": "${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png"
+        "pathPattern": "${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png",
+        "thumbnails": false
     }
 }
